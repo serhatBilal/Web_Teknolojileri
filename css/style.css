@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-image: url(../images/arkaplan.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    color: #fff !important;
+
+}
+.navbar-brand img
+{
+    width: 175px;
+    margin-left: 20px;
+
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+    
+}
+
+nav .fa-bars 
+{
+    color: #fff;
+    font-size: 26px;
+}
+
+/*------------------Merhaba Text----------------*/
+
+.merhaba
+{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+
+}
+
+.merhaba h1
+{
+    color: #333;
+
+
+}
+/*--------------------İlgi Alanlarım------------*/
+
+#hobilerim
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+#hobilerim .col-md-6
+{
+    padding: 20px 10px ;
+
+}
+
+#hobilerim h3
+{
+    margin: 20px a;
+
+}
+
+/*----------------footer-----------------------*/
+
+#footer
+{
+
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef ;
+    color: #013f7e;
+}
+
+.footer-logo
+{
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 15px ;
+}
+
+/*-----------------------Özgeçmiş-------------------*/
+
+.div1
+{
+    margin-top: 80px;
+    padding:75px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+/*-----------------Takımımız----------------------*/
+
+.sslogo
+{
+    padding: 20%;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.yazidüzen
+{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#tanim
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:green;
+font-size: x-large;
+
+}
+
+/*-----------------------------LOGİN----------------------------*/
+
+.loginbox
+{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+.loginbox h1{
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.loginbox input[type = "text"], .loginbox input[type = "password"] {
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.loginbox input[type = "text"]:focus, .loginbox input[type = "username"] {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+
+.loginbox input[type = "submit"] {
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.loginbox input[type = "submit"]:hover {
+    background: #2ecc71;
+}
